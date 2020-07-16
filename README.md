@@ -1,4 +1,4 @@
-# Dropzone config for uploading and directly displaying uploaded image.
+# Easy dropzone.js config for uploading and directly displaying uploaded image and more.
 
 ![](https://media.giphy.com/media/RG4VtpAV5rXu15FVi8/giphy.gif)
 
@@ -9,7 +9,7 @@ This repo is meant for those who wan't a quick and easy dropzone configuration w
 
 ## How to run
 
-First install dropzone and its dependencies.
+First install dropzone.js and its dependencies.
 
 - node.js: `npm install dropzone`.
 - Website: [dropzonejs.com](https://www.dropzonejs.com/#installation)
