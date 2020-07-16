@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/dropzone/dist/min/dropzone.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script
+      defer
+      src="./node_modules/dropzone/dist/min/dropzone.min.js"
+    ></script>
+    <script defer src="./dzoneConfig.js"></script>
+    <title>Dzonetest</title>
+  </head>
+  <body>
+    <div>
+      <form action="/target" class="dropzone" id="my-dropzone">
+        <div class="dz-message needsclick">
+          <span class="note needsclick">
+            Upload jpeg, png, svg or gif files.
+          </span>
+        </div>
+      </form>
+    </div>
+    <img id="temp1" src="" alt="" />
+  </body>
+</html>
