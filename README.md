@@ -11,7 +11,7 @@ This repo is meant for those who wan't a quick and easy dropzone configuration w
 
 First install dropzone.js and its dependencies.
 
-- node.js: `npm install dropzone`.
+- node.js: `npm install`.
 - Website: [dropzonejs.com](https://www.dropzonejs.com/#installation)
 
 ## Remove 404 resource not found from dropzone
