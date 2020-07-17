@@ -18,8 +18,6 @@ First install dropzone.js and its dependencies.
 
 Note this is a hacky fix and makes changes to the dropzone source code. This should only be used if the dropzone in question doesn't make any server-side requests i.e. We only want to use the nice UI to upload files locally.
 
-Either you can copy the dropzone moduel included in this repo (not recommended). Or you can make the changes yourself by following the below steps.
-
 After dropzone and its dependencies have been installed locally.
 
 - Goto `dropzone.js` and `commnad+f` to this line `this.emit("error", file, message, xhr);` and comment it out.
