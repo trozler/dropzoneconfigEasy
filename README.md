@@ -5,7 +5,6 @@
 This repo is meant for those who wan't a quick and easy dropzone configuration without spedning too much time researching the API.
 
 - The configuration allows users to upload images and then directly dsiplay them in the html.
-- The readme also discusses how to remove `404 resource not found` errors in dropzone. This is particularly usefuel when no server-side requests are made and we only want to use dropzone for it's nice UI.
 
 ## How to run
 
@@ -14,15 +13,6 @@ First install dropzone.js and its dependencies.
 - node.js: `npm install`
 - Website: [dropzonejs.com](https://www.dropzonejs.com/#installation)
 
-## Remove 404 resource not found from dropzone
-
-Note this is a hacky fix and makes changes to the dropzone source code. This should only be used if the dropzone in question doesn't make any server-side requests i.e. We only want to use the nice UI to upload files locally.
-
-After dropzone and its dependencies have been installed locally.
-
-- Goto `dropzone.js` and `commnad+f` to this line `this.emit("error", file, message, xhr);` and comment it out.
-
-- In the minimised file `dropzone.min.js`, `commnad+f` to this line `this.emit("error",s,t,n)` and delete it.
 
 ## Styling
 
